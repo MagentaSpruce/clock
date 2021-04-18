@@ -10,7 +10,7 @@ This project helped me to learn and understand better:
 4) Javascript coding
 
 This project is not slated for any improvements and has 1 known bug in need of fixing. 
-The bug is that upon the hands reaching 12 O'Clock there will be a transform event as the 
+The bug is that upon the hands reaching 12 O'Clock there will be a transform event as the transform rotate reaches 90 and so resets itself.
 
 A simple walkthrough and explanation of the code is below:
 
