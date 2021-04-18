@@ -38,9 +38,9 @@ Lastly, to give the hands that familiar 'tick' where the hand moves slightly for
 Now that the clock and hands are ready to go the JavaScript needs to be written. A function is created to find the current date and then parse it into seconds, minutes and hours. Then to use those values in order to calculate their equivalent degree out of a 360 degree circle. Once the degrees have been calculated they can be used to adjust the transform rotate property using a template literal.
 ```JavaScript
 const secondHand = document.querySelector('.second-hand'); 
-    const minuteHand = document.querySelector('.min-hand');
-    const hourHand = document.querySelector('.hour-hand');
-    const hand = document.querySelector('.hand');
+const minuteHand = document.querySelector('.min-hand');
+const hourHand = document.querySelector('.hour-hand');
+const hand = document.querySelector('.hand');
     
  function setDate(){
   const now = new Date();
